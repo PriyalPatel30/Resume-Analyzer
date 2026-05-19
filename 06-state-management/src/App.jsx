@@ -54,7 +54,7 @@ const App = () => {
 
   function decrement(){
     setNum(Num - 1)
-  }
+  }  
 
   return (
     <div>
