@@ -55,6 +55,15 @@ const App = () => {
   function decrement(){
     setNum(Num - 1)
   }  
+  //  we can also write the above functions like this
+  // function increment(){
+  //   setNum(prevNum => prevNum + 1)
+  // }
+
+  // function decrement(){
+  //   setNum(prevNum => prevNum - 1)
+  // } 
+  // changed code to above because of the asynchronous nature of state updates in react, if we have multiple state updates in a single function then we should use the previous state value to update the state
 
   return (
     <div>
