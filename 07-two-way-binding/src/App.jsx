@@ -27,6 +27,7 @@ const App = () => {
     </div> 
   )
 }
+// to be done pending
 
 export default App
 
